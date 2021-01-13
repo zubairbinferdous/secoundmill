@@ -1,0 +1,14 @@
+.box{
+    width: 150px;
+    height: 150px;
+    border: 1px solid red;
+}
+
+.outer{
+    background-color: rgb(53, 26, 233);
+}
+
+.inner{
+    background-color: rgb(15, 118, 221);
+    transform: rotate(60deg) scale(0.7);
+}
