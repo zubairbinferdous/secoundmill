@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>photo fram</title>
+    <style>
+
+        .photo-album{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .photo-fram{
+            width: 350px;
+            height:196px;
+            border: 10px solid red;
+            border-radius: 10px;
+            position: relative;
+            margin: 10px;
+            overflow: hidden;
+           
+           
+            
+        }
+
+        .photo-fram .photo img{
+            width: 100%;
+            transition: all linear .4s;
+            
+        }
+
+        .photo-fram:hover .photo img{
+            transform: scale(1.2);
+        }
+
+        .photo-data{
+           
+          position: absolute;
+          width:350px;
+          height:196px;
+          top: 0;
+          display:none;
+          
+         
+        }
+
+
+        .photo-fram:hover .photo-data{
+            display: block;
+            background-color: rgba(213, 236, 9, 0.4);
+            transition: all linear .3s;
+           
+        }
+
+        .photo-data h3{
+            font-size: 18px;
+            background-color:black;
+            color: white;
+            text-align: center;
+            
+        }
+
+        .photo-data p{
+            color: thistle;
+            
+        }
+
+
+
+    </style>
+</head>
+<body>
+
+    <h1>my photo book</h1>
+    <section class="photo-album">
+
+        <div class="photo-fram">
+            <div class="photo">
+                <img src="audio/food.jpg" alt="">
+            </div>
+
+            <div class="photo-data">
+                <h3>burgar is good</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam quibusdam in dolore labore illo cumque fuga voluptas facere odit perferendis?</p>
+            </div>
+    
+        </div>
+
+        <div class="photo-fram">
+            <div class="photo">
+                <img src="audio/food.jpg" alt="">
+            </div>
+
+            <div class="photo-data">
+                <h3>burgar is good</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam quibusdam in dolore labore illo cumque fuga voluptas facere odit perferendis?</p>
+            </div>
+    
+        </div>
+        <div class="photo-fram">
+            <div class="photo">
+                <img src="audio/food.jpg" alt="">
+            </div>
+
+            <div class="photo-data">
+                <h3>burgar is good</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam quibusdam in dolore labore illo cumque fuga voluptas facere odit perferendis?</p>
+            </div>
+    
+        </div>
+        <div class="photo-fram">
+            <div class="photo">
+                <img src="audio/food.jpg" alt="">
+            </div>
+
+            <div class="photo-data">
+                <h3>burgar is good</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam quibusdam in dolore labore illo cumque fuga voluptas facere odit perferendis?</p>
+            </div>
+    
+        </div>
+        <div class="photo-fram">
+            <div class="photo">
+                <img src="audio/food.jpg" alt="">
+            </div>
+
+            <div class="photo-data">
+                <h3>burgar is good</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam quibusdam in dolore labore illo cumque fuga voluptas facere odit perferendis?</p>
+            </div>
+    
+        </div>
+        <div class="photo-fram">
+            <div class="photo">
+                <img src="audio/food.jpg" alt="">
+            </div>
+
+            <div class="photo-data">
+                <h3>burgar is good</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam quibusdam in dolore labore illo cumque fuga voluptas facere odit perferendis?</p>
+            </div>
+    
+        </div>
+        <div class="photo-fram">
+            <div class="photo">
+                <img src="audio/food.jpg" alt="">
+            </div>
+
+            <div class="photo-data">
+                <h3>burgar is good</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam quibusdam in dolore labore illo cumque fuga voluptas facere odit perferendis?</p>
+            </div>
+    
+        </div>
+        <div class="photo-fram">
+            <div class="photo">
+                <img src="audio/food.jpg" alt="">
+            </div>
+
+            <div class="photo-data">
+                <h3>burgar is good</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam quibusdam in dolore labore illo cumque fuga voluptas facere odit perferendis?</p>
+            </div>
+    
+        </div>
+
+    
+    </section>
+
+    
+</body>
+</html>

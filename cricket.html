@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cricket css</title>
+
+    <style>
+        .ball{
+            height: 50px;
+            width: 50px;
+            border-radius: 50%;
+            background-color: tomato;
+            position: relative;
+            left: 750px;
+            transition: 2s ease-out .4s ;
+        }
+
+        .field:hover .ball{
+            transform: translate( 955px , -500px);
+        }
+
+        .bat{
+            transition: .3s;
+            transform-origin: 100% 0%;
+        }
+        .bat:hover{
+            transform: rotate(-70deg);
+            
+        }
+    </style>
+</head>
+<body>
+
+    <div class="field">
+        <img class="bat" src="audio/cricket.jpg" alt="">
+        <div class="ball"></div>
+    </div>
+    
+</body>
+</html>

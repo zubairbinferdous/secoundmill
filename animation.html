@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>animation css</title>
+    
+    <style>
+
+        body{
+            margin: 0;
+        }
+
+        @keyframes slider {
+            0%{
+                left:0px;
+                top: 0px;
+                background-color: yellow;
+            }
+            50%{
+                left:730px;
+                top: 240px;
+                background-color: rgb(240, 81, 8);
+
+            }
+            100%{
+                left:1500px;
+                top: 0px;
+                background-color: yellow;
+            }
+        }
+
+        .ball{
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            background-color: rgb(235, 212, 10);
+            position: absolute;
+        }
+
+        .stage{
+            background-color: turquoise;
+            width: 1600px;
+            height: 400px;
+        }
+
+        .stage:hover .ball{
+            animation: slider 2s ease-in-out .2s infinite alternate;
+        }
+
+    </style>
+
+</head>
+<body>
+
+    <div class="stage">
+        <div class="ball"></div>
+    </div>
+    
+</body>
+</html>
